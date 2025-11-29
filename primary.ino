@@ -8,7 +8,7 @@ TinyGPSPlus gps;
 // GSM A7670C: TXD -> 7, RXD -> 8
 SoftwareSerial gsm(7, 8);
 
-const char PHONE_NUMBER[] = "+917022587305";
+const char PHONE_NUMBER[] = "+91 XXXXXXXXXX";
 bool smsSent = false;
 
 unsigned long lastPrint = 0;
